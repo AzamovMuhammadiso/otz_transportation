@@ -21,6 +21,15 @@ export default function Reveal({
     const node = ref.current;
     if (!node) return;
 
+    const isMobile =
+      typeof window !== "undefined" &&
+      window.matchMedia("(max-width: 768px)").matches;
+
+    if (isMobile) {
+      node.classList.add("active");
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
