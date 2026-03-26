@@ -1,19 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Careers from './pages/Careers';
-import Quote from './pages/Quote';
-import Contact from './pages/Contact';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Careers from "./pages/Careers";
+import Quote from "./pages/Quote";
+import Contact from "./pages/Contact";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
         <Header />
-        <main className="flex-grow">
+        <ScrollToTop />
+
+        <main className="flex-grow page-animate">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
-import { Truck, Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Truck, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-br from-blue-900 to-blue-800 text-white">
+    <footer className="bg-gradient-to-br from-blue-900 to-blue-800 text-white animate-on-load">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
@@ -19,7 +19,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-blue-100 text-sm leading-relaxed">
-              Your trusted partner for reliable freight transportation across the United States.
+              Your trusted partner for reliable freight transportation across
+              the United States.
             </p>
           </div>
 
@@ -27,10 +28,10 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {[
-                { path: '/', label: 'Home' },
-                { path: '/about', label: 'About Us' },
-                { path: '/services', label: 'Services' },
-                { path: '/careers', label: 'Careers' },
+                { path: "/", label: "Home" },
+                { path: "/about", label: "About Us" },
+                { path: "/services", label: "Services" },
+                { path: "/careers", label: "Careers" },
               ].map((link) => (
                 <li key={link.path}>
                   <Link
@@ -51,8 +52,11 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-blue-100 text-sm">Phone</p>
-                  <a href="tel:+18005551234" className="text-white hover:text-orange-400 transition-colors">
-                    1-800-555-1234
+                  <a
+                    href="tel:+14402667901"
+                    className="text-white hover:text-orange-400 transition-colors"
+                  >
+                    1-440-266-7901
                   </a>
                 </div>
               </li>
@@ -60,8 +64,11 @@ export default function Footer() {
                 <Mail className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-blue-100 text-sm">Email</p>
-                  <a href="mailto:info@otztrans.com" className="text-white hover:text-orange-400 transition-colors">
-                    info@otztrans.com
+                  <a
+                    href="mailto:info@wfkenterprise.com"
+                    className="text-white hover:text-orange-400 transition-colors"
+                  >
+                    info@wfkenterprise.com
                   </a>
                 </div>
               </li>
@@ -69,7 +76,9 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-blue-100 text-sm">Address</p>
-                  <p className="text-white">123 Logistics Way, Chicago, IL 60601</p>
+                  <p className="text-white">
+                    30505 Bainbridge Rd Suite 101 Solon, OH 44139
+                  </p>
                 </div>
               </li>
             </ul>
@@ -95,10 +104,16 @@ export default function Footer() {
             &copy; {currentYear} OTZ Transportation. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
-            <Link to="/privacy" className="text-blue-200 hover:text-white transition-colors">
+            <Link
+              to="/privacy"
+              className="text-blue-200 hover:text-white transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link to="/terms" className="text-blue-200 hover:text-white transition-colors">
+            <Link
+              to="/terms"
+              className="text-blue-200 hover:text-white transition-colors"
+            >
               Terms of Service
             </Link>
           </div>
