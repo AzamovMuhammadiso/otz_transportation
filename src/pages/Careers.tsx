@@ -394,8 +394,7 @@ opacity-20"
             </button>
 
             <p className="text-sm text-gray-600 text-center">
-              By submitting this form, you agree to our privacy policy and terms
-              of service.
+              By submitting this form, you agree to our privacy policy.
             </p>
           </form>
         </div>

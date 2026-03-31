@@ -152,10 +152,10 @@ export default function Quote() {
                     <div className="flex items-center gap-3">
                       <Mail className="h-5 w-5 text-blue-900" />
                       <a
-                        href="mailto:info@wfkenterprise.com"
+                        href="mailto:info@otztransportation.com  "
                         className="text-blue-900 font-semibold hover:text-blue-700"
                       >
-                        info@wfkenterprise.com
+                        info@otztransportation.com  
                       </a>
                     </div>
                   </div>

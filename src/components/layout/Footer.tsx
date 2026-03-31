@@ -65,10 +65,10 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-100 text-sm">Email</p>
                   <a
-                    href="mailto:info@wfkenterprise.com"
+                    href="mailto:info@otztransportation.com"
                     className="text-white hover:text-orange-400 transition-colors"
                   >
-                    info@wfkenterprise.com
+                    info@otztransportation.com
                   </a>
                 </div>
               </li>
@@ -109,12 +109,6 @@ export default function Footer() {
               className="text-blue-200 hover:text-white transition-colors"
             >
               Privacy Policy
-            </Link>
-            <Link
-              to="/terms"
-              className="text-blue-200 hover:text-white transition-colors"
-            >
-              Terms of Service
             </Link>
           </div>
         </div>

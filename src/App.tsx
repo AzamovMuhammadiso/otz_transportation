@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Careers from "./pages/Careers";
 import Quote from "./pages/Quote";
 import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
 import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="/quote" element={<Quote />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
         <Footer />

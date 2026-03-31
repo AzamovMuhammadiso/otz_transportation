@@ -74,9 +74,9 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      details: "info@wfkenterprise.com",
+      details: "info@otztransportation.com",
       subdetails: "We reply within 24 hours",
-      link: "mailto:info@wfkenterprise.com",
+      link: "mailto:info@otztransportation.com  ",
     },
     {
       icon: MapPin,
