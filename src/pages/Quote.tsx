@@ -143,10 +143,10 @@ export default function Quote() {
                     <div className="flex items-center gap-3">
                       <Phone className="h-5 w-5 text-blue-900" />
                       <a
-                        href="tel:+14402667901"
+                        href="tel:+16147078499"
                         className="text-blue-900 font-semibold hover:text-blue-700"
                       >
-                        1-440-266-7901
+                        1-614-707-8499
                       </a>
                     </div>
                     <div className="flex items-center gap-3">

@@ -67,9 +67,9 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: "1-440-266-7901",
+      details: "1-614-707-8499",
       subdetails: "Available 24/7",
-      link: "tel:+14402667901",
+      link: "tel:+16147078499",
     },
     {
       icon: Mail,
@@ -81,9 +81,9 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Address",
-      details: "30505 Bainbridge Rd Suite 101 Solon",
-      subdetails: "Ohio, OH 44139",
-      link: "https://maps.app.goo.gl/wY5DTupStaSA3WTB9",
+      details: "2962 Wildflower Trl Dublin, OH 43017",
+      subdetails: "Ohio, OH 43017",
+      link: "https://maps.app.goo.gl/WaaNugU7bUnVq3yY9",
     },
     {
       icon: Clock,

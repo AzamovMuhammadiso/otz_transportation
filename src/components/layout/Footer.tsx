@@ -53,10 +53,10 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-100 text-sm">Phone</p>
                   <a
-                    href="tel:+14402667901"
+                    href="tel:+16147078499"
                     className="text-white hover:text-orange-400 transition-colors"
                   >
-                    1-440-266-7901
+                    1-614-707-8499
                   </a>
                 </div>
               </li>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <div>
                   <p className="text-blue-100 text-sm">Address</p>
                   <p className="text-white">
-                    30505 Bainbridge Rd Suite 101 Solon, OH 44139
+                    2962 Wildflower Trl Dublin, OH 43017
                   </p>
                 </div>
               </li>
