@@ -26,10 +26,10 @@ export default function Privacy() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
           <div className="space-y-4 text-gray-700">
             <p>
-              OTZ TRANSPORTATION LLC (OTZ TRANSPORTATION,” “we,” “our,” or “us") values
-              your privacy. This Privacy Policy explains how we collect, use,
-              disclose, and protect information you provide when visiting our
-              website.
+              OTZ TRANSPORTATION LLC (OTZ TRANSPORTATION,” “we,” “our,” or “us")
+              values your privacy. This Privacy Policy explains how we collect,
+              use, disclose, and protect information you provide when visiting
+              our website.
             </p>
           </div>
 
@@ -90,7 +90,28 @@ export default function Privacy() {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-gray-900">
-              3. reCAPTCHA and Google Services
+              3. SMS Communications
+            </h2>
+            <p className="text-gray-700">
+              By providing your phone number, you consent to receive SMS
+              messages from OTZ TRANSPORTATION, LLC regarding services, updates, and
+              communication.
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>Message frequency may vary</li>
+              <li>Message and data rates may apply</li>
+              <li>Reply STOP to opt out</li>
+              <li>Reply HELP for assistance</li>
+            </ul>
+            <p className="text-gray-700">
+              We do not share, sell, or disclose SMS consent or phone numbers to
+              third parties or affiliates for marketing purposes.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-semibold text-gray-900">
+              4. reCAPTCHA and Google Services
             </h2>
             <p className="text-gray-700">
               Our website may use Google reCAPTCHA to help prevent spam and
@@ -193,7 +214,7 @@ export default function Privacy() {
               information is handled, please contact:
             </p>
             <div className="space-y-2 text-gray-700">
-              <p>WFK Enterprise LLC</p>
+              <p>OTZ TRANSPORTATION LLC</p>
               <p>2962 Wildflower Trl Dublin, OH 43017</p>
               <p>info@otztransportation.com</p>
               <p>1-614-707-8499</p>
